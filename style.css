@@ -1,0 +1,18 @@
+tr,
+th,
+td,
+table {
+  border: 1px solid black;
+}
+
+form {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

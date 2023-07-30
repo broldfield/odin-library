@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My Library</h1>
+    <button id="btn">Add Book</button>
+    <form id="form" class="hide">
+      <label for="bookTitle">Title:</label>
+      <input type="text" id="bookTitle" />
+
+      <label for="bookAuthor">Author:</label>
+      <input type="text" id="bookAuthor" />
+
+      <label for="bookPages">Pages:</label>
+      <input type="text" id="bookPages" />
+
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+    <table id="libraryTable">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Pages</th>
+        </tr>
+      </thead>
+      <tbody id="libraryBody"></tbody>
+    </table>
+  </body>
+</html>
